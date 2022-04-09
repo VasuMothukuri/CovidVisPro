@@ -1,0 +1,80 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Roboto",sans-serif;
+    color: #50658e;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+}
+
+body {
+    margin: 0;
+    background-color: #fff;
+}
+
+
+img {
+    height: 80px;
+}
+
+.navbar {
+    background: white;
+}
+
+li {
+    padding-left: 50px;
+}
+
+.home-section {
+    background-color: rgba(62, 119, 165, 0.311);
+}
+
+.left-section {
+    margin: 5rem;
+}
+
+
+.heading {
+    font-size: 4.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    color: #50658e;
+    font-family: "Oswald, sans-serif";
+    font-weight: 700;
+    margin-top: 10rem;
+}
+
+.heading-sm .sup {
+    color: #f86168;
+    font-size: 1.5rem;
+    letter-spacing: 0.04rem;
+}
+
+.heading-sm .sub {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+p {
+   color: #3d4b69;
+   margin-bottom: 1rem;
+   font-size: 1rem;
+   line-height: 1.67;
+   display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.about-section {
+    margin: 5rem;
+}
